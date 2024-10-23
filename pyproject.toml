@@ -75,7 +75,7 @@ psutil = "5.9.8"
 # peepdf-3 = "4.0.0"
 
 Werkzeug = "3.0.3"
-packaging = "23.1"
+packaging = "24.1"
 setuptools = "70.0.0"
 # command line config manipulation
 crudini = "0.9.4"
