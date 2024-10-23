@@ -1570,14 +1570,17 @@ i18n = ["Babel (>=2.7)"]
 
 [[package]]
 name = "lnkparse3"
-version = "1.2.0"
+version = "1.5.0"
 description = "Windows Shortcut file (LNK) parser"
 optional = false
 python-versions = "*"
 files = [
-    {file = "LnkParse3-1.2.0-py3-none-any.whl", hash = "sha256:b97f9a3dfffa62ecbd5f1f6561d8b5b75b0045241482b4a980657d5aac696ee3"},
-    {file = "LnkParse3-1.2.0.tar.gz", hash = "sha256:102b2aba6c2896127cb719f814a8579210368f9277fd5ec0d0151fe070166e1d"},
+    {file = "LnkParse3-1.5.0-py3-none-any.whl", hash = "sha256:56b549389254f4d25375621249aa3a8c31f1dabf375e88bf7dc8c73a0f4f8f1e"},
+    {file = "lnkparse3-1.5.0.tar.gz", hash = "sha256:3ecbd8f4107be07b8e8d7b770daa53271abf66222ee892618d30f86952e1121a"},
 ]
+
+[package.dependencies]
+pyyaml = "*"
 
 [[package]]
 name = "mako"
@@ -4541,4 +4544,4 @@ testing = ["coverage (>=5.0.3)", "zope.event", "zope.testing"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.10, <4.0"
-content-hash = "60bf927752538b220c3156c89605a163fd272ecca872edc4926885ab68a1477d"
+content-hash = "d856fe9cea63dcbae1ddf5ff20d13335f189d7e69745473fcfc80154382a1a33"
