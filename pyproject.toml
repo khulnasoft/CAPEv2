@@ -86,7 +86,7 @@ pyguacamole = "^0.11"
 uvicorn = {extras = ["standard"], version = "^0.18.2"}
 gunicorn = "^22.0.0"
 channels = "^3.0.5"
-setproctitle = "1.3.2"
+setproctitle = "1.3.3"
 
 # tmp dependency to fix vuln
 certifi = "2024.7.4"
